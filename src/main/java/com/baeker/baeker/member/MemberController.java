@@ -39,7 +39,6 @@ public class MemberController {
     @GetMapping("/login")
     @PreAuthorize("isAnonymous()")
     public String login(MemberLoginForm form) {
-
         log.info("login form 요청 확인");
         return "member/login";
     }
