@@ -96,3 +96,4 @@ management:
     web:
       exposure:
         include: health, info, prometheus
+
