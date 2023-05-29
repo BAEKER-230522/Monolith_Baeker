@@ -80,6 +80,14 @@ logging.level:
     orm.jdbc.bind: trace
 
 
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus
+
+
 ### custom ###
 jasypt:
   encryptor:
@@ -96,4 +104,5 @@ management:
     web:
       exposure:
         include: health, info, prometheus
+
 
