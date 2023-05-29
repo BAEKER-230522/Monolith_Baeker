@@ -79,6 +79,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-batch")
     implementation("org.springframework.boot:spring-boot-starter-quartz")
     testImplementation 'org.awaitility:awaitility:4.2.0'
+
 }
 
 dependencyManagement {

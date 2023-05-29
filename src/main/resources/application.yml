@@ -78,6 +78,9 @@ logging.level:
   org.hibernate:
     SQL: debug
     orm.jdbc.bind: trace
+
+
+### custom ###
 jasypt:
   encryptor:
     bean: jasyptStringEncryptor

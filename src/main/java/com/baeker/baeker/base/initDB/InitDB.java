@@ -63,7 +63,6 @@ public class InitDB {
             createStudy("알파알파", "Provident cupiditate voluptatem et in.", 10, alpha);
 
             alphaId = alpha.getId();
-
             // 더미 user 3명 생성후 알파 스터디 가입
             for (int i = 3; i < 10; i++) {
                 Member member = createdummy("user" + i, "member" + i, "안녕하세요" + i, "https://avatars.dicebear.com/api/avataaars/" + i * 10 + ".svg", "Joon" + i);
