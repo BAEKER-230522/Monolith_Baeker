@@ -97,9 +97,3 @@ scheduler:
   cron:
     member: "0 */3 * * * *"
     study: "0 */5 * * * *"
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health, info, prometheus

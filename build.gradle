@@ -80,10 +80,6 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-quartz")
     testImplementation 'org.awaitility:awaitility:4.2.0'
 
-    // 프로메테우스 
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
-    implementation 'io.micrometer:micrometer-core'
-    implementation 'io.micrometer:micrometer-registry-prometheus'
 }
 
 dependencyManagement {
